@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- AUTHOR: HMMPF -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+		android:layout_gravity="center"/>
+    
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="Come in pls" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="随机摇摇摇" />
+    
+    <Button
+        android:id="@+id/liangjingjing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="亮晶晶" />
+    
+    <Button 
+        android:id="@+id/yijianbaojing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一键报警"/>
+    
+
+</LinearLayout>
